@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms:</h1>
+    <form action="/form" method="POST">
+      <label>
+        Username:
+        <input type="text" name="username" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Password:
+        <input type="password" name="password" />
+      </label>
+      <p>Please select your gender:</p>
+      <input type="radio" name="gender" value="male" /> Male<br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="radio" name="gender" value="other" /> Other<br />
+      <label>
+        <input type="checkbox" name="agree" value="yes" />
+        Agree with conditions
+      </label>
+      <br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
